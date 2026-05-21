@@ -1,0 +1,49 @@
+/* Desktop Nav Items - Hidden on mobile, visible on md+ */
+.navbar-desktop-items {
+  display: none;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .navbar-desktop-items {
+    display: flex;
+  }
+}
+
+/* User Info - Hidden on small screens, visible on sm+ */
+.navbar-user-info {
+  text-align: right;
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .navbar-user-info {
+    display: block;
+  }
+}
+
+/* User Info Divider - Hidden on small screens, visible on sm+ */
+.navbar-divider {
+  width: 1px;
+  height: 1.5rem;
+  background: var(--border-light);
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .navbar-divider {
+    display: block;
+  }
+}
+
+/* Mobile Menu Button - Visible on mobile, hidden on md+ */
+.navbar-mobile-menu-btn {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .navbar-mobile-menu-btn {
+    display: none;
+  }
+}

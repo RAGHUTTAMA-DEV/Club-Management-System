@@ -1,0 +1,19 @@
+{
+  "name": "club-management-system",
+  "version": "1.0.0",
+  "description": "College Club Management System - MERN Stack",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
+  },
+  "keywords": ["club", "management", "mern"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
