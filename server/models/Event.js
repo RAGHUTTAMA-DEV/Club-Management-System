@@ -24,6 +24,7 @@ const eventSchema = new mongoose.Schema({
   date: Date,
   time: String,
   description: String,
+  image_url: String,
   createdAt: {
     type: Date,
     default: Date.now
