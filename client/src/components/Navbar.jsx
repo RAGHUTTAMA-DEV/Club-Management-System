@@ -12,7 +12,8 @@ export default function Navbar({ currentPage, setCurrentPage }) {
     { id: 'clubs', label: 'Clubs', icon: '🎭' },
     { id: 'events', label: 'Events', icon: '📅' },
     { id: 'memberships', label: 'Memberships', icon: '👥' },
-    { id: 'announcements', label: 'Announcements', icon: '📢' }
+    { id: 'announcements', label: 'Announcements', icon: '📢' },
+    { id: 'about', label: 'About', icon: 'ℹ️' }
   ]
 
   const handleNavClick = (id) => {

@@ -7,6 +7,7 @@ import ClubPage from './pages/ClubPage'
 import EventPage from './pages/EventPage'
 import MembershipPage from './pages/MembershipPage'
 import AnnouncementPage from './pages/AnnouncementPage'
+import AboutPage from './pages/AboutPage'
 import LoginPage from './pages/LoginPage'
 
 function AppContent() {
@@ -25,6 +26,8 @@ function AppContent() {
         return <MembershipPage />
       case 'announcements':
         return <AnnouncementPage />
+      case 'about':
+        return <AboutPage />
       default:
         return <Dashboard />
     }

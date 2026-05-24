@@ -68,4 +68,10 @@ export const authAPI = {
   verify: () => axios.get(`${API_URL}/auth/me`)
 }
 
+// ==================== EXPORT ====================
+export const exportAPI = {
+  downloadDatabase: () => 
+    axios.get(`${API_URL}/export/database`)
+}
+
 export default axios
